@@ -2,6 +2,7 @@
 title = 'Workflow'
 date = 2024-03-08T20:35:23-08:00
 draft = false
+weight = 6
 +++
 
 {{< mermaid >}}

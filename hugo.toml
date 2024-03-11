@@ -5,40 +5,24 @@ theme = 'hugo-theme-relearn'
 
 [menu]
 [[menu.shortcuts]]
-    identifier = 'ds'
-    name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
-    url = 'https://github.com/bio-recap/'
+    name = "<i class='fab fa-fw fa-github'></i> GitHub"
+    url = 'https://github.com/bio-recap/Liu_2016'
     weight = 10
 
 [[menu.shortcuts]]
-    name = "<i class='fas fa-dna'></i> test"
-    url = 'https://bio-recap.github.io/directory'
-    weight = 11
+    name = "<i class='fas fa-file'></i> All Analysis Files"
+    url = 'https://github.com/bio-recap/Liu_2016/tree/main/analysis/'
+    weight = 15
 
 [[menu.shortcuts]]
-    name = "<i class='fas fa-layer-group'></i> Categories"
-    url = '/categories'
-    weight = 13
-
-[[menu.shortcuts]]
-    identifier = 'hugodoc'
-    name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
-    url = 'https://gohugo.io/'
+    name = "<i class='fas fa-dna'></i> Back to Bio-Recap Directory" 
+    url = 'https://bio-recap.github.io/directory/projects_directory/all_categories/index.html'
     weight = 20
 
 [[menu.shortcuts]]
-    name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
-    url = 'more/credits/'
+    name = "<i class='fas fa-fw fa-bullhorn'></i> Acknowledgements"
+    url = 'entry_and_reqs/credits/'
     weight = 30
-
-[[menu.shortcuts]]
-    name = "<i class='fas fa-tags'></i> Tags"
-    url = '/tags'
-
-[[menu.shortcuts]]
-    name = "<i class='fas fa-layer-group'></i> Categories"
-    url = '/categories'
-    weight = 12
 
 [params]
   additionalContentLanguage = ['en']
@@ -48,7 +32,7 @@ theme = 'hugo-theme-relearn'
   customMathJaxURL = ''
   customMermaidURL = ''
   customOpenapiURL = ''
-  description = 'Documentation for Hugo Relearn Theme'
+  description = ''
   disableAssetsBusting = false
   disableBreadcrumb = false
   disableExplicitIndexURLs = false
@@ -70,7 +54,6 @@ theme = 'hugo-theme-relearn'
   disableTagHiddenPages = false
   disableTermBreadcrumbs = false
   disableToc = false
-  editURL = 'https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/${FilePath}'
   externalLinkTarget = '_blank'
   highlightWrap = true
   images = ['images/hero.png']
@@ -91,7 +74,7 @@ theme = 'hugo-theme-relearn'
   [params.imageEffects]
     border = true
     lightbox = true
-    shadow = false
+    shadow = true
 
   [params.link]
     errorlevel = 'warning'

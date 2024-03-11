@@ -4,4 +4,4 @@ title = "Recap Analysis"
 weight = 2
 +++
 
-Lorem Ipsum.
+###### Engage in an in-depth recreation of the analysis
